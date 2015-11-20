@@ -1,5 +1,6 @@
-# from django.db import models
-
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+          
 class Department():
 
     strategy = None
@@ -76,7 +77,7 @@ class BusinessDevelopment(Department):
             return ["Lighthouse customer wins", "Leveraged partnership growth"]
         
         else:
-            raise ValueError("\_(ツ)_/¯")
+            raise ValueError(u"\_(ツ)_/¯")
 
     
 class PlatformRelations(BusinessDevelopment):
